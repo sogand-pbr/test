@@ -1,0 +1,67 @@
+.indexbody {
+    background-color: #4158D0;
+    background-image: linear-gradient(90deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+.studentbody{
+    background-color: #4158D0;
+    background-image: linear-gradient(120deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+.financialbody{
+    background-color: #4158D0;
+    background-image: linear-gradient(285deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+.radio{
+    width: 20%;
+    justify-content: center;
+    align-items: center ;
+}
+.img img{
+    height: 500px;
+    width: 350px;
+    background-size: cover;
+    position: absolute;
+    left :0px
+}
+form{
+    margin-top: 80px;
+    margin-right: 40px;
+}
+form label {
+    display: inline-block;
+    margin-top: 50px;
+}
+.box{
+    background-color:#F5FEFD;
+    height: 500px;
+    width: 700px;
+    border: solid mediumpurple 2px;
+    position: absolute;
+    top:50px;
+    right:350px
+
+}
+input{
+    border: 0;
+    border-bottom: 2px solid #4158D0;
+    outline: none;
+    width: 200px;
+}
+
+input::placeholder{
+    color: transparent;
+    transition: 300ms;
+}
+input:hover::placeholder{
+    color: gray;
+}
+input[type=submit]
+{
+    margin-top: 80px;
+    margin-right: 125px;
+    background-color: #4158D0;
+    width: 100px;
+    height: 25px;
+    border-radius: 10PX;
+}
